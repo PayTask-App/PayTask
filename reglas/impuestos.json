@@ -1,0 +1,87 @@
+{
+    "version": "1.0.0",
+    "pais": "Panamá",
+    "actualizadoEn": "2026-01-20",
+    "fuente": "Código de Trabajo de Panamá y CSS",
+    "deducciones": {
+        "seguroSocial": {
+            "descripcion": "Cuota Obrero CSS",
+            "tasa": 9.75,
+            "topeAnual": null,
+            "aplicaA": "salarioBruto",
+            "vigencia": "2024-01-01"
+        },
+        "seguroEducativo": {
+            "descripcion": "Seguro Educativo (SE)",
+            "tasa": 1.25,
+            "topeAnual": null,
+            "aplicaA": "salarioBruto",
+            "vigencia": "2024-01-01"
+        },
+        "patronal": {
+            "seguroSocial": {
+                "tasa": 12.25,
+                "descripcion": "Cuota Patronal CSS"
+            },
+            "seguroEducativo": {
+                "tasa": 1.50,
+                "descripcion": "SE Patronal"
+            },
+            "riesgosProfesionales": {
+                "tasaBase": 0.98,
+                "descripcion": "Varía por actividad económica"
+            }
+        }
+    },
+    "isr": {
+        "descripcion": "Impuesto Sobre la Renta - Personas Naturales",
+        "vigencia": "2024-01-01",
+        "tabla": [
+            {
+                "rangoMin": 0,
+                "rangoMax": 11000,
+                "tasa": 0,
+                "impuestoBase": 0,
+                "descripcion": "Exento"
+            },
+            {
+                "rangoMin": 11000,
+                "rangoMax": 50000,
+                "tasa": 15,
+                "impuestoBase": 0,
+                "descripcion": "15% sobre el excedente de B/.11,000"
+            },
+            {
+                "rangoMin": 50000,
+                "rangoMax": null,
+                "tasa": 25,
+                "impuestoBase": 5850,
+                "descripcion": "B/.5,850 + 25% sobre el excedente de B/.50,000"
+            }
+        ]
+    },
+    "decimoTercer": {
+        "descripcion": "XIII Mes / Bonificación",
+        "formula": "salarioAcumulado / 12",
+        "fechasPago": [
+            "15 de abril",
+            "15 de agosto",
+            "15 de diciembre"
+        ],
+        "proporcional": true
+    },
+    "vacaciones": {
+        "diasPorAno": 30,
+        "descripcion": "30 días por cada 11 meses trabajados",
+        "proporcional": true
+    },
+    "primaAntiguedad": {
+        "descripcion": "1 semana por cada año trabajado",
+        "formula": "semanasAntiguedad * salarioSemana",
+        "aplicaDesde": "primerAño"
+    },
+    "indemnizacion": {
+        "descripcion": "3.4 semanas por año (Ley 44 de 1995)",
+        "formula": "3.4 * salarioSemana * anosServicio"
+    }
+}

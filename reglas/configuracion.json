@@ -1,0 +1,57 @@
+{
+    "version": "1.0.0",
+    "actualizadoEn": "2026-01-20",
+    "jornadas": {
+        "diurna": {
+            "maxDiaria": 8,
+            "maxSemanal": 48,
+            "horario": "06:00 - 18:00"
+        },
+        "nocturna": {
+            "maxDiaria": 7,
+            "maxSemanal": 42,
+            "horario": "18:00 - 06:00"
+        },
+        "mixta": {
+            "maxDiaria": 7.5,
+            "maxSemanal": 45
+        }
+    },
+    "horasExtras": {
+        "maxDiarias": 3,
+        "maxSemanales": 9,
+        "recargos": {
+            "diurna": 25,
+            "nocturna": 50,
+            "mixtaDia": 50,
+            "mixtaNoche": 75,
+            "exceso": 75
+        }
+    },
+    "diasEspeciales": {
+        "domingoRecargo": 50,
+        "feriadoRecargo": 150,
+        "diaCompensatorio": true
+    },
+    "almuerzo": {
+        "duracionMinutos": 60,
+        "umbralHoras": 5,
+        "diasAplicables": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "salarioMinimo": {
+        "vigencia": "2024-01-01",
+        "montos": {
+            "comercioGrande": 700.00,
+            "comercioMediano": 650.00,
+            "comercioPequeno": 600.00,
+            "construccion": 750.00,
+            "agricultura": 550.00
+        }
+    }
+}

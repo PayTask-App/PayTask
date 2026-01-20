@@ -1,0 +1,78 @@
+{
+    "version": "1.0.0",
+    "pais": "Panamá",
+    "actualizadoEn": "2026-01-20",
+    "descripcion": "Fórmulas de cálculo para PayTask",
+    "formulas": {
+        "seguroSocial": {
+            "descripcion": "Cálculo CSS cuota obrero",
+            "formula": "salarioBruto * 0.0975",
+            "variables": [
+                "salarioBruto"
+            ]
+        },
+        "seguroEducativo": {
+            "descripcion": "Cálculo Seguro Educativo",
+            "formula": "salarioBruto * 0.0125",
+            "variables": [
+                "salarioBruto"
+            ]
+        },
+        "isrMensual": {
+            "descripcion": "Estimación mensual de ISR (Se prorratea del anual)",
+            "formula": "calcularISRAnual(salarioMensual * 12) / 12",
+            "variables": [
+                "salarioMensual"
+            ]
+        },
+        "decimoTercer": {
+            "descripcion": "XIII Mes proporcional",
+            "formula": "salarioAcumuladoPeriodo / 12",
+            "variables": [
+                "salarioAcumuladoPeriodo"
+            ]
+        },
+        "vacaciones": {
+            "descripcion": "Vacaciones proporcionales",
+            "formula": "(diasTrabajados / 330) * 30 * salarioDiario",
+            "variables": [
+                "diasTrabajados",
+                "salarioDiario"
+            ]
+        },
+        "primaAntiguedad": {
+            "descripcion": "Prima de antigüedad",
+            "formula": "anosServicio * (salarioMensual / 4)",
+            "variables": [
+                "anosServicio",
+                "salarioMensual"
+            ]
+        },
+        "indemnizacion": {
+            "descripcion": "Indemnización por despido injustificado",
+            "formula": "anosServicio * 3.4 * salarioSemanal",
+            "variables": [
+                "anosServicio",
+                "salarioSemanal"
+            ]
+        },
+        "horasExtras": {
+            "diurnas": {
+                "formula": "horasExtra * salarioHora * 1.25",
+                "recargo": 25
+            },
+            "nocturnas": {
+                "formula": "horasExtra * salarioHora * 1.50",
+                "recargo": 50
+            },
+            "dominical": {
+                "formula": "horasExtra * salarioHora * 1.50",
+                "recargo": 50
+            },
+            "feriado": {
+                "formula": "horasExtra * salarioHora * 2.50",
+                "recargo": 150
+            }
+        }
+    }
+}
