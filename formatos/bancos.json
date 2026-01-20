@@ -1,0 +1,180 @@
+{
+    "version": "1.0.0",
+    "pais": "Panamá",
+    "actualizadoEn": "2026-01-20",
+    "bancos": [
+        {
+            "id": "banco-general",
+            "nombre": "Banco General",
+            "codigo": "003",
+            "formato": "csv",
+            "camposRequeridos": [],
+            "camposOpcionales": [],
+            "descripcion": "Formato CSV simple, sin datos de empresa requeridos",
+            "especificaciones": {
+                "separador": ",",
+                "columnas": [
+                    "tipoCuenta",
+                    "numeroCuenta",
+                    "monto",
+                    "nombreBeneficiario",
+                    "descripcion"
+                ]
+            }
+        },
+        {
+            "id": "bac",
+            "nombre": "BAC Credomatic",
+            "codigo": "032",
+            "formato": "formato6",
+            "camposRequeridos": [
+                "numeroCuenta"
+            ],
+            "camposOpcionales": [
+                "tipoCuenta"
+            ],
+            "descripcion": "Formato posicional con cabecera H, requiere cuenta de débito",
+            "especificaciones": {
+                "tipoArchivo": "posicional",
+                "cabecera": {
+                    "tipo": "H",
+                    "longitudCuenta": 15
+                },
+                "detalle": {
+                    "tipo": "D",
+                    "longitudCuenta": 20,
+                    "longitudMonto": 15
+                }
+            }
+        },
+        {
+            "id": "banistmo",
+            "nombre": "Banistmo",
+            "codigo": "007",
+            "formato": "pab",
+            "camposRequeridos": [
+                "numeroCuenta"
+            ],
+            "camposOpcionales": [
+                "tipoCuenta"
+            ],
+            "descripcion": "Formato PAB posicional, requiere cuenta de débito de 12 dígitos",
+            "especificaciones": {
+                "tipoArchivo": "posicional",
+                "longitudCuentaOrigen": 12,
+                "longitudCuentaDestino": 12,
+                "longitudMonto": 13
+            }
+        },
+        {
+            "id": "global-bank",
+            "nombre": "Global Bank",
+            "codigo": "061",
+            "formato": "globalbank",
+            "camposRequeridos": [],
+            "camposOpcionales": [],
+            "descripcion": "Formato CSV simple, sin datos de empresa requeridos",
+            "especificaciones": {
+                "separador": ",",
+                "columnas": [
+                    "tipoCuenta",
+                    "numeroCuenta",
+                    "monto",
+                    "cedula",
+                    "nombreBeneficiario"
+                ]
+            }
+        },
+        {
+            "id": "caja-ahorros",
+            "nombre": "Caja de Ahorros",
+            "codigo": "009",
+            "formato": "nacha",
+            "camposRequeridos": [],
+            "camposOpcionales": [
+                "companyId",
+                "entryDescription"
+            ],
+            "descripcion": "Formato NACHA estándar ACH, opcionalmente personalizable",
+            "especificaciones": {
+                "tipoArchivo": "nacha",
+                "longitudRegistro": 94,
+                "tiposRegistro": [
+                    "1",
+                    "5",
+                    "6",
+                    "8",
+                    "9"
+                ]
+            }
+        },
+        {
+            "id": "banesco",
+            "nombre": "Banesco",
+            "codigo": "065",
+            "formato": "csv",
+            "camposRequeridos": [],
+            "camposOpcionales": [],
+            "descripcion": "Formato CSV, verificar requisitos específicos",
+            "especificaciones": {
+                "separador": ","
+            }
+        },
+        {
+            "id": "multibank",
+            "nombre": "Multibank",
+            "codigo": "035",
+            "formato": "csv",
+            "camposRequeridos": [],
+            "camposOpcionales": [],
+            "descripcion": "Formato CSV, verificar requisitos específicos",
+            "especificaciones": {
+                "separador": ","
+            }
+        },
+        {
+            "id": "scotiabank",
+            "nombre": "Scotiabank",
+            "codigo": "023",
+            "formato": "csv",
+            "camposRequeridos": [],
+            "camposOpcionales": [],
+            "descripcion": "Formato CSV, verificar requisitos específicos",
+            "especificaciones": {
+                "separador": ","
+            }
+        },
+        {
+            "id": "banco-nacional",
+            "nombre": "Banco Nacional",
+            "codigo": "001",
+            "formato": "bnp",
+            "camposRequeridos": [],
+            "camposOpcionales": [
+                "companyId",
+                "entryDescription"
+            ],
+            "descripcion": "Formato TXT de ancho fijo (Banco Nacional)",
+            "especificaciones": {
+                "tipoArchivo": "posicional",
+                "extension": ".txt"
+            }
+        },
+        {
+            "id": "st-georges",
+            "nombre": "St. Georges Bank",
+            "codigo": "044",
+            "formato": "csv",
+            "camposRequeridos": [],
+            "camposOpcionales": [],
+            "descripcion": "Formato CSV, verificar requisitos específicos",
+            "especificaciones": {
+                "separador": ","
+            }
+        }
+    ],
+    "codigosSBP": {
+        "descripcion": "Códigos del Sistema Bancario Panameño",
+        "fuente": "Superintendencia de Bancos de Panamá"
+    }
+}
