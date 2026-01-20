@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "mensaje": "Configuración Inicial - PayTask",
+  "recursos": {
+    "impuestos": "reglas/impuestos.json",
+    "bancos": "formatos/bancos.json",
+    "documentos": {
+        "codigo_trabajo": "documentos/codigo_trabajo.pdf"
+    }
+  }
+}
