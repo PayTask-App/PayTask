@@ -1,11 +1,15 @@
 {
-  "version": "1.0.0",
-  "mensaje": "Configuración Inicial - PayTask",
-  "recursos": {
-    "impuestos": "reglas/impuestos.json",
-    "bancos": "formatos/bancos.json",
-    "documentos": {
-        "codigo_trabajo": "documentos/codigo_trabajo.pdf"
+    "version": "1.0.0",
+    "actualizadoEn": "2026-01-20",
+    "mensaje": "Configuración Inicial - PayTask Panamá",
+    "appMinVersion": "2.0.0",
+    "recursos": {
+        "impuestos": "reglas/impuestos.json",
+        "bancos": "formatos/bancos.json",
+        "formulas": "reglas/formulas.json",
+        "configuracion": "reglas/configuracion.json",
+        "documentos": {
+            "codigo_trabajo": "documentos/codigo_trabajo.pdf"
+        }
     }
-  }
 }
