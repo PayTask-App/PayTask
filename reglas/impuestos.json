@@ -6,7 +6,7 @@
     "deducciones": {
         "seguroSocial": {
             "descripcion": "Cuota Obrero CSS",
-            "tasa": 9.75,
+            "tasa": 10.00,
             "topeAnual": null,
             "aplicaA": "salarioBruto",
             "vigencia": "2024-01-01"
@@ -84,4 +84,5 @@
         "descripcion": "3.4 semanas por año (Ley 44 de 1995)",
         "formula": "3.4 * salarioSemana * anosServicio"
     }
+
 }
