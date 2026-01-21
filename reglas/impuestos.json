@@ -6,7 +6,7 @@
     "deducciones": {
         "seguroSocial": {
             "descripcion": "Cuota Obrero CSS",
-            "tasa": 10.00,
+            "tasa": 9.75,
             "topeAnual": null,
             "aplicaA": "salarioBruto",
             "vigencia": "2024-01-01"
@@ -38,24 +38,24 @@
         "vigencia": "2024-01-01",
         "tabla": [
             {
-                "rangoMin": 0,
-                "rangoMax": 11000,
+                "desde": 0,
+                "hasta": 11000,
                 "tasa": 0,
-                "impuestoBase": 0,
+                "deduccion": 0,
                 "descripcion": "Exento"
             },
             {
-                "rangoMin": 11000,
-                "rangoMax": 50000,
+                "desde": 11000,
+                "hasta": 50000,
                 "tasa": 15,
-                "impuestoBase": 0,
+                "deduccion": 0,
                 "descripcion": "15% sobre el excedente de B/.11,000"
             },
             {
-                "rangoMin": 50000,
-                "rangoMax": null,
+                "desde": 50000,
+                "hasta": "infinito",
                 "tasa": 25,
-                "impuestoBase": 5850,
+                "deduccion": 5850,
                 "descripcion": "B/.5,850 + 25% sobre el excedente de B/.50,000"
             }
         ]
@@ -84,5 +84,4 @@
         "descripcion": "3.4 semanas por año (Ley 44 de 1995)",
         "formula": "3.4 * salarioSemana * anosServicio"
     }
-
 }
