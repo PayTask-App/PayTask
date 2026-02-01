@@ -1,0 +1,29 @@
+{
+    "version": "1.0.0",
+    "actualizadoEn": "2026-01-31",
+    "descripcion": "Configuración del repositorio de PayTask - PERMITE MIGRAR A NUEVA URL",
+    "repositorio": {
+        "url_actual": "https://raw.githubusercontent.com/PayTask-App/PayTask/refs/heads/main/config-repo",
+        "url_alternativa": null,
+        "migracion_activa": false,
+        "migracion_mensaje": null
+    },
+    "instrucciones_migracion": {
+        "paso1": "Si necesitas mover el repositorio a otra URL:",
+        "paso2": "1. Primero sube todos los archivos al nuevo repositorio",
+        "paso3": "2. Actualiza 'url_alternativa' con la nueva URL",
+        "paso4": "3. Cambia 'migracion_activa' a true",
+        "paso5": "4. Agrega un mensaje en 'migracion_mensaje'",
+        "paso6": "5. La aplicación detectará el cambio y actualizará la URL automáticamente",
+        "nota": "El sistema lee este archivo y si detecta migracion_activa=true, actualiza su URL interna"
+    },
+    "ejemplo_migracion": {
+        "url_alternativa": "https://nuevo-servidor.com/paytask-config",
+        "migracion_activa": true,
+        "migracion_mensaje": "Hemos migrado a un nuevo servidor. La configuración se actualizará automáticamente."
+    },
+    "contacto": {
+        "email": "soporte@paytask.com",
+        "web": "https://paytask.com"
+    }
+}
