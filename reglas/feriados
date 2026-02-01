@@ -1,0 +1,147 @@
+{
+    "version": "1.0.0",
+    "actualizadoEn": "2026-01-31",
+    "descripcion": "Feriados Nacionales de Panamá",
+    "nota": "Incluye feriados móviles calculados para el año actual",
+    "feriados": {
+        "2026": [
+            {
+                "fecha": "2026-01-01",
+                "nombre": "Año Nuevo",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-01-09",
+                "nombre": "Día de los Mártires",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-02-23",
+                "nombre": "Lunes de Carnaval",
+                "tipo": "movil"
+            },
+            {
+                "fecha": "2026-02-24",
+                "nombre": "Martes de Carnaval",
+                "tipo": "movil"
+            },
+            {
+                "fecha": "2026-04-03",
+                "nombre": "Viernes Santo",
+                "tipo": "movil"
+            },
+            {
+                "fecha": "2026-05-01",
+                "nombre": "Día del Trabajador",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-11-03",
+                "nombre": "Día de la Separación de Colombia",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-11-04",
+                "nombre": "Día de la Bandera",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-11-05",
+                "nombre": "Día de Colón (Consolidación)",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-11-10",
+                "nombre": "Grito de Independencia de la Villa de Los Santos",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-11-28",
+                "nombre": "Independencia de España",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-12-08",
+                "nombre": "Día de las Madres",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2026-12-25",
+                "nombre": "Navidad",
+                "tipo": "fijo"
+            }
+        ],
+        "2027": [
+            {
+                "fecha": "2027-01-01",
+                "nombre": "Año Nuevo",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-01-09",
+                "nombre": "Día de los Mártires",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-02-15",
+                "nombre": "Lunes de Carnaval",
+                "tipo": "movil"
+            },
+            {
+                "fecha": "2027-02-16",
+                "nombre": "Martes de Carnaval",
+                "tipo": "movil"
+            },
+            {
+                "fecha": "2027-03-26",
+                "nombre": "Viernes Santo",
+                "tipo": "movil"
+            },
+            {
+                "fecha": "2027-05-01",
+                "nombre": "Día del Trabajador",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-11-03",
+                "nombre": "Día de la Separación de Colombia",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-11-04",
+                "nombre": "Día de la Bandera",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-11-05",
+                "nombre": "Día de Colón (Consolidación)",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-11-10",
+                "nombre": "Grito de Independencia de la Villa de Los Santos",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-11-28",
+                "nombre": "Independencia de España",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-12-08",
+                "nombre": "Día de las Madres",
+                "tipo": "fijo"
+            },
+            {
+                "fecha": "2027-12-25",
+                "nombre": "Navidad",
+                "tipo": "fijo"
+            }
+        ]
+    },
+    "notas_legales": [
+        "Los feriados móviles (Carnaval y Viernes Santo) varían cada año según el calendario litúrgico.",
+        "El recargo por trabajo en feriado es del 150% adicional según el Código de Trabajo.",
+        "Algunos empleadores otorgan adicionales como feriados (Día del Padre, etc.) pero no son oficiales."
+    ]
+}
