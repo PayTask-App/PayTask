@@ -1,15 +1,44 @@
 {
-    "version": "1.0.2",
-    "actualizadoEn": "2026-01-20",
+    "version": "1.0.0",
+    "actualizadoEn": "2026-01-31",
     "mensaje": "Configuración Inicial - PayTask Panamá",
-    "appMinVersion": "2.0.0",
+    "appMinVersion": "1.0.0",
+    
     "recursos": {
         "impuestos": "reglas/impuestos.json",
-        "bancos": "formatos/bancos.json",
-        "formulas": "reglas/formulas.json",
+        "feriados": "reglas/feriados.json",
         "configuracion": "reglas/configuracion.json",
+        "formulas": "reglas/formulas.json",
+        "bancos": "formatos/bancos.json",
+        "anuncios": "app/anuncios.json",
+        "version": "app/version.json",
+        "repo_config": "app/repo_config.json",
         "documentos": {
             "codigo_trabajo": "documentos/codigo_trabajo.pdf"
         }
-    }
+    },
+
+    "prioridad_descarga": [
+        "repo_config",
+        "impuestos",
+        "feriados",
+        "configuracion",
+        "anuncios"
+    ],
+
+    "checksums": {},
+
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "fecha": "2026-01-31",
+            "cambios": [
+                "Versión inicial del repositorio de configuración",
+                "Tablas de ISR y CSS 2026",
+                "Feriados nacionales 2026-2027",
+                "Sistema de anuncios remotos",
+                "Soporte para migración de URL del repositorio"
+            ]
+        }
+    ]
 }
