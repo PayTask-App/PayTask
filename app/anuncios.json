@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "actualizadoEn": "2026-01-31",
+    "descripcion": "Anuncios y notificaciones para usuarios de PayTask",
+    "anuncios": [
+        {
+            "id": "welcome-2026",
+            "tipo": "info",
+            "titulo": "¡Bienvenido a PayTask!",
+            "mensaje": "Gracias por elegir PayTask para la gestión de su nómina. Si tiene preguntas, visite el Centro de Ayuda.",
+            "vigenciaDesde": "2026-01-01",
+            "vigenciaHasta": "2026-12-31",
+            "mostrarUnaVez": true,
+            "prioridad": "baja",
+            "urlAccion": null
+        }
+    ],
+    "alertas": [],
+    "mantenimiento": {
+        "activo": false,
+        "mensaje": "",
+        "fechaEstimada": null
+    },
+    "notas": "Este archivo permite enviar anuncios a los usuarios sin actualizar la app. Los anuncios se descargan cada 3 días automáticamente."
+}
