@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "actualizadoEn": "2026-01-31",
+    "descripcion": "Información de versión y actualizaciones de PayTask",
+    "appVersion": {
+        "actual": "1.0.0",
+        "minima_soportada": "1.0.0",
+        "recomendada": "1.0.0",
+        "fecha_lanzamiento": "2026-01-31"
+    },
+    "actualizaciones": [],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "fecha": "2026-01-31",
+            "tipo": "major",
+            "cambios": [
+                "Lanzamiento inicial de PayTask",
+                "Gestión completa de empleados",
+                "Cálculos de nómina según ley panameña",
+                "Generación de reportes CSS y DGI",
+                "Sistema de auditoría integrado"
+            ]
+        }
+    ],
+    "proximaActualizacion": {
+        "version": null,
+        "fecha_estimada": null,
+        "descripcion": null
+    }
+}
